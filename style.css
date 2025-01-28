@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    background-image: url(bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+#logo{
+    width: 3em;
+    height: 3em;
+    margin-left: 5em;
+    margin-top: 1em;
+    border: 2px solid blueviolet ;
+}
+#home{
+    margin-top: 3em;
+    height: 100%;
+    
+}
+.socials{
+    display: block;
+    margin-left: 2em;
+    color: blueviolet;
+
+}
+.socials2{
+    
+    margin-left: 2em;
+    color: blueviolet;
+
+}
+
+h1{
+    margin-left: 1em;
+    margin-top: 3em;
+    font-size: 100px;
+}
+.buttons{
+    margin-left: 10rem;
+    margin-top: 2em;
+}
+#seemore{
+    background-color: black;
+    width: 9em;
+    height: 4em;
+    border: 2px solid blueviolet;
+    color: white;
+    border-radius: 10em;
+}
+#contbtn{
+    border-radius: 10em;
+    margin-left: 2em;
+    background-color: blueviolet;
+    width: 9em;
+    height: 4em;
+    border: 2px solid black;
+    color: white;
+}
+h2{
+    margin-left: 5em;
+    font-size: 2em;
+    margin-top: -4em;
+}
+.h3{
+    margin-left: 10em;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+    padding-left: 2em;
+}
+nav{
+   
+    height: 40px;
+   
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    margin-left: 50em;
+}
+#About {
+    background-color: black; 
+    padding: 2em; 
+}
+
+.about-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+}
+
+#aboutimg {
+    height: 40em; 
+    width: auto;
+    margin-right: 2em;
+}
+
+.about-text {
+    
+    color: white;
+    font-size: 1.4em;
+}
+#gllry{
+    font-size: 4em;
+  margin-left: -3em;
+  margin-bottom: 1em;
+}
+.gllryheader{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutprg {
+    font-size: 3.5em;
+    margin-bottom: 1em; 
+}
+#gallery{
+    background-color: black;
+}
+.gellerybtn1{
+    background-color: blueviolet;
+    font-size: 1em;
+    width: 4.3em;
+    margin-left: 2em;
+    height: 2.3em;
+    border: 1px solid blueviolet;
+    color: white;
+}
+.gellerybtn2,.gellerybtn3{
+    font-size: 1em;
+    width: 4.3em;
+    margin-left: 2em;
+    height: 2.3em;
+    border: 1px solid blueviolet;
+    background-color: black;
+    color: white;
+}
+.images{
+    margin-left: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#img1,#img4{
+    width: auto;
+    height: 30em;
+}
+#img2,#img3{
+    height: 15em;
+    width: 30em;
+}
+#service{
+    background-color: black;
+}
+.servheader,.testemonial-text,.contact-text{
+    margin-top: 1em;
+    font-size: 5em;
+    text-align: center;
+}
+
+.servimf{
+    display: flex;
+    justify-content: center;
+}
+.event,.testemonial-box{
+    width: 25em;
+    height: 10em;
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+   padding: 1em;
+   margin-top: 2em;
+   border-radius: 2em;
+   font-size: 1.3em;
+}
+.testemonial-box{
+    width: 20em;
+    height: 25em;
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+   padding: 1em;
+   margin-top: 2em;
+   border-radius: 2em;
+   font-size: 1em;
+   margin-left: 37em;
+}
+
+.music{
+    width: 25em;
+    height: 10em;
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    padding: 1em;
+   margin-left: 1em;
+   margin-top: 2em;
+   border-radius: 2em;
+   font-size: 1.3em;
+}
+#Event-Videography,#Music-Videos,#testemonial-header{
+    color: blueviolet;
+    font-size: 2em;
+}
+#testemonial-header{
+    color: blueviolet;
+    font-size: 1em;
+}
+.contact-imf{
+    margin-top: 4em;
+   display: flex;
+   justify-content: center;
+   
+}
+#name,#email{
+    width: 33em;
+    height: 4em;
+    margin-top: 2em;
+    background-color: black;
+    border-radius: 3em;
+    border: 1px solid blueviolet;
+    color: wheat;
+    padding: 1em;
+}
+#send{
+    background-color: blueviolet;
+    color: white;
+    height: 3em;
+    width: 10em;
+    border-radius: 2em;
+    margin-top: 2em;
+    margin-left: 13em;
+}
+/* Extra small devices (phones, less than 600px) */
+@media (max-width: 499px) {
+    /* Styles for small devices */
+    ul{
+        display: block;
+        font-size: 10px;
+    }
+}
+
+/* Small devices (tablets, 600px and up) */
+@media (min-width: 500px) and (max-width: 899px) {
+    /* Styles for small devices */
+}
+
+/* Medium devices (desktops, 900px and up) */
+@media (min-width: 900px) and (max-width: 1199px) {
+    /* Styles for medium devices */
+}
+
+/* Large devices (large desktops, 1200px and up) */
+
+
